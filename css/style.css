@@ -4,6 +4,8 @@
   --third-color: #757575;
   --white-color: #ffffff;
   --filter-color: #F5F4FA;
+  --adressf-color: rgba(255, 255, 255, 0.6);
+  --hero-main-bg: #2F303A;
 }
 
 a {
@@ -20,6 +22,8 @@ body{
 
 h2,h3{
   color: var(--second-color);
+  font-style: normal;
+  font-weight: bold;
 }
 
 .visually-hidden{
@@ -68,7 +72,7 @@ h2,h3{
   color: var(--first-color);
 }
 
-.current{
+.link-nav.current{
   color: var(--first-color);
 }
 
@@ -82,7 +86,7 @@ h2,h3{
 
   /* top: 2097px; */
 
-  background: #2F303A;
+  background: var(--hero-main-bg);
 }
 
 .logof{
@@ -110,7 +114,7 @@ h2,h3{
 }
 
 .adressf a{
-  color: rgba(255, 255, 255, 0.6);;
+  color: var(--adressf-color);
 }
 
 /* CSS for main page******************************* */
@@ -134,7 +138,7 @@ h2,h3{
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: #FFFFFF;
+  color: var(--white-color);
 }
 
 .hero-bg{
@@ -145,43 +149,37 @@ h2,h3{
   left: 0px;
   top: 80px;
   
-  background: #2F303A;
+  background: var(--hero-main-bg);
 }
 
 
 .servise{
 
   position: absolute;
-  width: 200px;
-  height: 50px;
   left: 700px;
   top: 430px;
+  padding: 10px 15px;
     
   background: var(--first-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-}
-
-.servise-text{
-
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
-
-  /* identical to box height, or 187% */
-
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: #FFF;
 }
 
+h2.indexh{
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 .feater{
   
-  font-style: normal;
-  font-weight: bold;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -214,41 +212,32 @@ h2,h3{
 /* CSS portfolio******************** */
 
 .filter{
-  background: var(--filter-color);
-  border-radius: 4px;
-}
-
-.filter .text{
+ 
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
+  border-radius: 4px;
   color: var(--second-color);
-}
-
-.filter .text:hover,
-.filter .text:focus{
-  color: var(--white-color);
+  background: var(--filter-color);
 }
 
 .filter:focus, .filter:hover {
   background: var(--first-color);
+  color: var(--white-color);
 }
 
 h2.var{
-  font-style: normal;
-  font-weight: bold;
+  
   font-size: 18px;
   line-height: 36px;
-
-  /* identical to box height, or 200% */
-  
   letter-spacing: 0.06em;
 }
 
-p.item{
+.itemp{
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
