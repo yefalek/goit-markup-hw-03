@@ -26,6 +26,50 @@ h2,h3{
   font-weight: bold;
 }
 
+.dlnav{
+  width: 294px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+}
+
+.dadress{
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+}
+
+.line{
+
+  /* position: absolute; */
+  width: 1600px;
+  height: 0px;
+  left: 0px;
+  top: 80px;
+    
+  border: 1px solid #ECECEC;
+}
+
+.line-bg{
+
+  /* position: absolute; */
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+
+  background: var(--white-color);
+}
+
+.dlogo{
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+}
+
 .visually-hidden{
   position: absolute;
   width: 1px;
@@ -42,9 +86,6 @@ h2,h3{
 
 .upline{
 
-  display: flex;
-  justify-content: start;
-  flex-direction: row;
   position: absolute;
   width: 1600px;
   height: 80px;
@@ -134,8 +175,4 @@ h2,h3{
 .adressf a{
   color: var(--adressf-color);
 }
-
-/* CSS for main page******************************* */
-
-/* CSS portfolio******************** */
 
