@@ -1,0 +1,34 @@
+.filter{
+ 
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  color: var(--second-color);
+  background: var(--filter-color);
+}
+  
+.filter:focus, .filter:hover {
+  background: var(--first-color);
+  color: var(--white-color);
+}
+  
+h2.var{
+    
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+  
+.itemp{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px; 
+  letter-spacing: 0.03em;
+  
+}

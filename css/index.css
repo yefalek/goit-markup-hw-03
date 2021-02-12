@@ -1,0 +1,123 @@
+.hero{
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+}
+  
+.dfeater{
+  position: absolute;
+  width: 1170px;
+  height: 101px;
+  left: 215px;
+  top: 774px;
+}
+  
+.whatdo{
+  position: absolute;
+  width: 1170px;
+  height: 386px;
+  left: 215px;
+  top: 969px;
+}
+  
+.dteam{
+  position: absolute;
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
+}
+
+.hero-text{
+
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+  
+    
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  
+  /* or 136% */
+  
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  
+  color: var(--white-color);
+}
+  
+.hero-bg{
+  
+  /* position: absolute; */
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+    
+  background: var(--hero-main-bg);
+}
+  
+  
+.servise{
+  
+  position: absolute;
+  left: 700px;
+  top: 430px;
+  padding: 10px 15px;
+      
+  background: var(--first-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: #FFF;
+}
+  
+h2.indexh{
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+  
+.feater{
+    
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+  
+.item{
+    
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--third-color);
+}
+  
+.team{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
+  
+.team.des{
+  color: var(--third-color);
+  font-weight: normal;
+}
+  

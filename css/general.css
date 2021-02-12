@@ -1,0 +1,141 @@
+:root {
+  --first-color: #2196F3;
+  --second-color: #212121;
+  --third-color: #757575;
+  --white-color: #ffffff;
+  --filter-color: #F5F4FA;
+  --adressf-color: rgba(255, 255, 255, 0.6);
+  --hero-main-bg: #2F303A;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+h2,h3{
+  color: var(--second-color);
+  font-style: normal;
+  font-weight: bold;
+}
+
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.upline{
+
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+}
+
+.dfooter{
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+
+}
+
+.logo{
+  
+  font-family: 'Raleway', sans-serif;    
+  font-style: normal;    
+  font-weight: bold;    
+  font-size: 26px;   
+  line-height: 35px;
+  letter-spacing: 0.03em; 
+  color: var(--second-color);
+}
+
+.logo-web{
+  font-family: 'Raleway', sans-serif;
+  color: var(--first-color);
+}
+
+.links-nav .link-nav{
+  color: var(--third-color);
+  
+  width: 500px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.links-nav .link-nav:hover,
+.links-nav .link-nav:focus{
+  color: var(--first-color);
+}
+
+.link-nav.current{
+  color: var(--first-color);
+}
+
+.fotbg{
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+
+  /* top: 2097px; */
+
+  background: var(--hero-main-bg);
+}
+
+.logof{
+  
+  font-family: 'Raleway', sans-serif;    
+  font-style: normal;    
+  font-weight: bold;    
+  font-size: 26px;   
+  line-height: 35px;
+  letter-spacing: 0.03em; 
+  color: var(--white-color);
+}
+
+.web.logof{
+  color: var(--first-color);
+}
+
+.adressf{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+
+.adressf a{
+  color: var(--adressf-color);
+}
+
+/* CSS for main page******************************* */
+
+/* CSS portfolio******************** */
+

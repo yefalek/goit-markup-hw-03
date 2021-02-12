@@ -4,41 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/index.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <!-- Полоска навигации -->
 <body>
- <header>
-    <nav>
-        <a href="/" class="logo">
-          <span class="logo-web">Web</span>Studio
-        </a>
+  <div class="upline">
+  <header>
+      <nav>
+          <a href="/" class="logo">
+            <span class="logo-web">Web</span>Studio
+          </a>
 
-        <ul class="links-nav">
-          <li><a class="link-nav current" href="index.html">Студия</a></li>
-          <li><a class="link-nav" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="link-nav" href="">Контакты</a></li>
-          
-        </ul>
-    </nav>
-    <ul class="links-nav">
-      <li><a class="link-nav" href="tel:+380961111111">+38 096 111 11 11</a></li>
-      <li><a class="link-nav" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-    </ul>
-  </header>
+          <ul class="links-nav">
+            <li><a class="link-nav current" href="index.html">Студия</a></li>
+            <li><a class="link-nav" href="./portfolio.html">Портфолио</a></li>
+            <li><a class="link-nav" href="">Контакты</a></li>
+            
+          </ul>
+      </nav>
+      <ul class="links-nav">
+        <li><a class="link-nav" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li><a class="link-nav" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+      </ul>
+    </header>
+  </div>
 
   <main>
   <!-- Герой - шапка -->
+  <div class="hero">
   <section class="hero-bg">
     <h1 class="hero-text">Эффективные решения для вашего бизнеса</h1>
     <a class="servise" href="#">
       Заказать услугу
     </a>
   </section>
-  <!-- Особености (невидимая часть заголовка)-->
-  <h2 class="visually-hidden">Особенности</h2>
+</div>
+  <!-- Особености-->
+  <div class="dfeater">
+  <h2 class="visually-hidden">Особенности</h2> <!-- hiden h2 -->
   <section>
     <ul>
       <li>
@@ -59,7 +65,9 @@
       </li>
     </ul>
   </section>
+</div>
   <!-- Чем занимается фирма -->
+  <div class="whatdo">
   <section>
     <h2 class="indexh">Чем мы занимаемся</h2>
     <ul>
@@ -82,7 +90,9 @@
       </li>
     </ul>
   </section>
+</div>
   <!-- Наша команда -->
+  <div class="dteam">
   <section>
     <h2 class="indexh">Наша команда</h2>
     <ul>
@@ -108,8 +118,10 @@
       </li>
     </ul>
   </section>
+</div>
   </main>
   <!-- Подвал страницы -->
+  <div class="dfooter">
   <footer class="fotbg">
     <a href="/" class="logof">
       <span class="web logof">Web</span>Studio
@@ -121,5 +133,6 @@
      <a href="tel:+1112223344">(111) 222-33-44</a>
     </address>
   </footer>
+</div>
   </body>
 </html>
