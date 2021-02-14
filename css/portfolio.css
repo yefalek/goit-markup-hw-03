@@ -1,5 +1,16 @@
+.maincon{
+  margin: 94px 215px;
+}
+
+.filul{
+  margin: 0px 0px 94px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .filter{
- 
+  padding: 6px 22px;
   font-family: inherit;
   font-style: normal;
   font-weight: 500;
@@ -15,6 +26,10 @@
 .filter:focus, .filter:hover {
   background: var(--first-color);
   color: var(--white-color);
+}
+
+.filul-item{
+  margin: 0px 8px;
 }
   
 h2.var{
