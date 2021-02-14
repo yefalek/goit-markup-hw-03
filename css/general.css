@@ -35,18 +35,25 @@ h2,h3{
   width: 1600px;
   display: flex;
   flex-direction: column;
-
-  /* margin: 0 auto; */
+  
+  margin: 0 auto;
   padding: 0 15px;
+}
+
+.container.head{
+  width: 1600px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline; 
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .dnav, .links-nav, .logo {
   display: flex;
-}
-
-.container.dnav{
-  justify-content: space-between ;
-  align-items: center;
+  flex-direction: row;
+  align-items: baseline;
+  
 }
 
 
@@ -146,15 +153,20 @@ h2,h3{
 }
 
 .fotbg{
-  position: absolute;
+  margin: 0 auto;
+  padding: 0 15px;
   width: 1600px;
   height: 252px;
-  left: 0px; 
+ 
   background: var(--hero-main-bg);
 }
 
+.fotbg .container{
+  padding: 60px 215px;
+}
+
 .logof{
-  
+  padding-bottom: 20px;
   font-family: 'Raleway', sans-serif;    
   font-style: normal;    
   font-weight: bold;    
@@ -175,6 +187,10 @@ h2,h3{
   line-height: 24px;
   letter-spacing: 0.03em;
   color: var(--white-color);
+}
+
+.adressf-item {
+  margin-bottom: 10px;
 }
 
 .adressf a{
