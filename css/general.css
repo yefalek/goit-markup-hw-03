@@ -8,6 +8,11 @@
   --hero-main-bg: #2F303A;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -29,6 +34,7 @@ h2,h3{
 .container{
   width: 1600px;
   display: flex;
+  flex-direction: column;
 
   /* margin: 0 auto; */
   padding: 0 15px;
@@ -139,15 +145,13 @@ h2,h3{
   color: var(--first-color);
 }
 
-/* .fotbg{
+.fotbg{
   position: absolute;
   width: 1600px;
   height: 252px;
-  left: 0px; */
-
-/* top: 2097px; */
-/* 
-background: var(--hero-main-bg); */
+  left: 0px; 
+  background: var(--hero-main-bg);
+}
 
 .logof{
   
