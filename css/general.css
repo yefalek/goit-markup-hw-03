@@ -6,6 +6,8 @@
   --filter-color: #F5F4FA;
   --adressf-color: rgba(255, 255, 255, 0.6);
   --hero-main-bg: #2F303A;
+  --card-set-gap: 30px;
+  --card-portfborder-color: #EEEEEE;
 }
 
 *{

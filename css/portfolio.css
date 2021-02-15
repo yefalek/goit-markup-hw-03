@@ -38,8 +38,37 @@ h2.var{
   line-height: 36px;
   letter-spacing: 0.06em;
 }
-  
+
+.proj-list{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(-1 * var(--card-set-gap));
+  margin-top: calc(-1 * var(--card-set-gap));
+}
+
+.proj-list > .prli{
+  flex-basis: calc(100% / 3 - var(--card-set-gap));
+  margin-left: var(--card-set-gap);
+  margin-top: var(--card-set-gap);
+}
+
+.projitm{
+  background: var(--white-color);
+  border: 1px solid var(--card-portfborder-color);
+  box-sizing: border-box;
+  width: 370px;
+}
+
+.pr-content{
+  padding: 20px 24px;
+}
+
 .itemp{
+  padding-top: 4px;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
