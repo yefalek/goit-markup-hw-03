@@ -8,6 +8,7 @@
   --hero-main-bg: #2F303A;
   --card-set-gap: 30px;
   --card-portfborder-color: #EEEEEE;
+  --head-border-color: #ECECEC;
 }
 
 *{
@@ -39,7 +40,6 @@ h2,h3{
   flex-direction: column;
   
   margin: 0 auto;
-  padding: 0 15px;
 }
 
 .container.head{
@@ -47,8 +47,11 @@ h2,h3{
   display: flex;
   flex-direction: row;
   align-items: baseline; 
-  margin-bottom: 20px;
-  margin-top: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+
+  border: 1px solid var(--head-border-color);
+  background: var(--white-color);
 }
 
 .dnav, .links-nav, .logo {
@@ -57,30 +60,6 @@ h2,h3{
   align-items: baseline;
   
 }
-
-
-.line{
-
-  /* position: absolute; */
-  width: 1600px;
-  height: 0px;
-  left: 0px;
-  top: 80px;
-    
-  border: 1px solid #ECECEC;
-}
-
-.line-bg{
-
-  /* position: absolute; */
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
-
-  background: var(--white-color);
-}
-
 
 .visually-hidden{
   position: absolute;
