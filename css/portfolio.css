@@ -43,7 +43,7 @@ h2.var{
   padding: 0;
   margin: 0;
   list-style: none;
-  justify-content: center;
+  
   display: flex;
   flex-wrap: wrap;
   margin-left: calc(-1 * var(--card-set-gap));
@@ -55,12 +55,19 @@ h2.var{
   flex-basis: calc(100% / 3 - var(--card-set-gap));
   margin-left: var(--card-set-gap);
   margin-top: var(--card-set-gap);
+  
 }
 
 .prli{
   background: var(--white-color);
   border: 1px solid var(--card-portfborder-color);
-  box-sizing: border-box;
+  
+}
+
+
+.pr-thumb img{
+  display: block;
+  
 }
 
 .pr-content{
@@ -75,5 +82,5 @@ h2.var{
   font-size: 16px;
   line-height: 30px; 
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--third-color);
 }
