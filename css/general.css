@@ -27,8 +27,12 @@ ul{
 }
 
 body{
+  width: 1600px;
   font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  
 }
+
 
 h2,h3{
   color: var(--second-color);
@@ -36,24 +40,24 @@ h2,h3{
   font-weight: bold;
 }
 
-.container{
-  width: 1600px;
-  display: flex;
-  flex-direction: column;
-  
-  margin: 0 auto;
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
-.container.head{
-  width: 1600px;
-  display: flex;
-  flex-direction: row;
-  align-items: baseline; 
+.head{
   padding-bottom: 20px;
   padding-top: 20px;
-
   border: 1px solid var(--head-border-color);
   background: var(--white-color);
+}
+
+.container{
+  width: 1200px;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
 }
 
 .dnav, .links-nav, .logo {
@@ -77,16 +81,6 @@ h2,h3{
   overflow: hidden;
 }
 
-.upline{
-
-  position: absolute;
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
-}
-
-
 .logo{
   
   font-family: 'Raleway', sans-serif;    
@@ -96,7 +90,7 @@ h2,h3{
   line-height: 35px;
   letter-spacing: 0.03em; 
   color: var(--second-color);
-  margin-left: 214px;
+  
 }
 
 .logo-web{
@@ -137,15 +131,14 @@ h2,h3{
 
 .fotbg{
   margin: 0 auto;
-  padding: 0 15px;
   width: 1600px;
   height: 252px;
- 
   background: var(--hero-main-bg);
 }
 
 .fotbg .container{
-  padding: 60px 215px;
+  padding: 60px 0px;
+  display: block;
 }
 
 .logof{
