@@ -27,7 +27,8 @@ ul{
 }
 
 body{
-  width: 1600px;
+  color: var(--second-color);
+  background-color: var(--white-color);
   font-family: 'Roboto', sans-serif;
   margin: 0 auto;
   
@@ -47,15 +48,17 @@ img {
 }
 
 .head{
-  padding-bottom: 20px;
-  padding-top: 20px;
+  display: flex;
+  width: 1600px;
+  height: 80px; 
+  margin: 0 auto;
   border: 1px solid var(--head-border-color);
   background: var(--white-color);
 }
 
 .container{
   width: 1200px;
-  justify-content: center;
+  align-self: center;
   display: flex;
   margin: 0 auto;
 }
@@ -63,7 +66,7 @@ img {
 .dnav, .links-nav, .logo {
   display: flex;
   flex-direction: row;
-  align-items: baseline;
+  align-items: center;
   
 }
 

@@ -1,9 +1,9 @@
 .hero-bg{
   padding: 200px 452px 0px;
   height: 600px;
+  width: 1600px;
   background: var(--hero-main-bg);
-  align-items: center;
-  justify-content: center;
+  margin: 0 auto;
 }
 
 .hero-text{
@@ -113,7 +113,7 @@
   width: 1600px;
   height: 648px;
   background-color: var(--filter-color);
-  
+  margin: 0 auto;
   padding: 94px 215px;
 }
 
